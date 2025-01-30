@@ -25,7 +25,7 @@
     
     -->
 
-    <h1 id = "main_title">Welcome to My Page</h1>
+    <h1 id = "main_title"><span style="color: rgb(216, 6, 6); font-weight: bold;">Welcome to My Page</span></h1>
 
 <hr>
 
@@ -48,15 +48,13 @@
     </div>
 
     <div id="Profile">
-        <h1> <u> Profile </u> </h1>
-
-        <p> Hello! I'm Farheen. An aspiring Web Developer and Designer.
-            <br>
-            I'm a senior at St John's University majoring in Computer Science.
-        </p>
-
-
+        <h1><u>Profile</u></h1>
+        <img src="pfp.jpg" alt="Profile Picture" width="180" height="300">
+        <p>Hello! I'm <span style="font-weight: bold;">Farheen</span>, an aspiring Web Developer and Designer.<br>
+        I'm a senior at St John's University majoring in Computer Science.</p>
     </div>
+
+
 
     <div id="Education">
 
@@ -103,9 +101,12 @@
 
     <div id="General Interests">
         <h1><u>General Interests</u></h1>
-        <p> I like listening to heavy music</p>
+        <p> I like to do a little trolling</p>
         <br>
         I also like 3D modelling, drawing, reading, and writing.
+
+        <img src="https://upload.wikimedia.org/wikipedia/en/7/73/Trollface.png" alt="Trollface" width="300" height="200">
+
     </div>
 
     <div id="Favorite Things"> 
@@ -157,6 +158,13 @@
             My Projects
         </a>
     </div>
+
+    <form onsubmit="event.preventDefault();" method="post">
+        <h2>Name</h2>
+        <h3>HMU so I can beat you in Fortnite :P</h3>
+        <input type="text" name="username" placeholder="Enter your name" required>
+        <button type="submit">Submit</button>
+    </form>
 
 </body>
 </html>
