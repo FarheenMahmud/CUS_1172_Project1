@@ -4,97 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Page</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS -->
     <style>
-        /* General Styles */
-        body {
-            background-color: #24262e;
-            margin: 0;
-            font-family: Arial, sans-serif;
-            color: white;
-            text-align: center;
-        }
-
-        /* Container */
-        .container {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            width: 100%;
-        }
-
-        /* Header & Navigation */
-        .Top-section {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            background-color: #24262e;
-            padding: 20px;
-            width: 100%;
-        }
-
-        .upper-half {
-            display: flex;
-            justify-content: center;
-            background-color: #24262e;
-            padding: 10px 0;
-            position: fixed;
-            top: 0;
-            width: 100%;
-            z-index: 1000;
-        }
-
-        .right-links {
-            display: flex;
-            list-style: none;
-            padding: 0;
-            margin: 0;
-        }
-
-        .right-links li {
-            margin: 0 15px;
-        }
-
-        .right-links a {
-            color: white;
-            text-decoration: none;
-        }
-
-        /* Sections */
-        .section {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding: 20px;
-            background-color: #f0f0f0;
-            margin: 20px 0;
-            width: 80%;
-            border-radius: 10px;
-            color: black;
-        }
-
-        .Quote-section {
-            background-color: #e5e7eb;
-        }
-
-        .Bottom-section {
-            background-color: white;
-        }
-
-        /* Images */
-        img {
-            max-width: 100%;
-            height: auto;
-            width: 180px;
-            display: block;
-            margin: 0 auto;
-            border-radius: 5px;
-        }
-
-        /* Links */
-        a {
-            color: white;
-            text-decoration: none;
+        /* Inline style example */
+        h1 {
+            color: #ffcc00; /* Example color for the header */
         }
     </style>
 </head>
@@ -115,26 +29,26 @@
         </ul>
     </nav>
 
-    <section id="Profile" class="section">
+    <div id="Profile" class="section">
         <h2>Profile</h2>
         <img src="pfp.jpg" alt="Profile Picture">
         <p>Hello! I'm Farheen, an aspiring Web Developer and Designer.</p>
-    </section>
+    </div>
 
-    <section id="Education" class="section">
+    <div id="Education" class="section">
         <h2>Education</h2>
         <p>Senior at St. John's University, majoring in Computer Science.</p>
-    </section>
+    </div>
 
-    <section id="Experience" class="section">
+    <div id="Experience" class="section">
         <h2>Work Experience</h2>
         <ul>
             <li>Freelance Web Design Work</li>
             <li>Retail Manager at Fresh Fruits</li>
         </ul>
-    </section>
+    </div>
 
-    <section id="ProgrammingSkills" class="section">
+    <div id="ProgrammingSkills" class="section">
         <h2>Programming Skills</h2>
         <table>
             <tr><th>Language</th><th>Experience Level</th></tr>
@@ -142,26 +56,26 @@
             <tr><td>CSS</td><td>Intermediate</td></tr>
             <tr><td>JS</td><td>Beginner</td></tr>
         </table>
-    </section>
+    </div>
 
-    <section id="GeneralInterests" class="section">
+    <div id="GeneralInterests" class="section">
         <h2>General Interests</h2>
         <p>3D modelling, drawing, reading, and writing.</p>
-    </section>
+    </div>
 
-    <section id="FavoriteThings" class="Quote-section section">
+    <div id="FavoriteThings" class="Quote-section section">
         <h2>Favorite Media</h2>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/nWcumyt9ruE" allowfullscreen></iframe>
-    </section>
+    </div>
 
-    <section id="FavoriteWebsite" class="Quote-section section">
+    <div id="FavoriteWebsite" class="Quote-section section">
         <h2>My Favorite Website</h2>
         <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Click here!</a>
-    </section>
+    </div>
 
-    <section id="MyProjects" class="Bottom-section section">
+    <div id="MyProjects" class="Bottom-section section">
         <h2>My Projects</h2>
-        <a href="https://github.com/FarheenMahmud/CUS_1172_Project1" target="_blank">View Projects</a>
-    </section>
+        <a href="https://github.com/FarheenMahmud/CUS_1172_Project1" target="_blank" style="color: black;">View Projects</a>
+    </div>
 </body>
 </html>
