@@ -87,8 +87,16 @@ img {
 
 /* Links */
 a {
-    color: white;
-    text-decoration: none;
+    color: black; /* Set default link color to black */
+    text-decoration: underline; /* Underline all links */
+}
+
+a:visited {
+    color: purple; /* Change color to purple for visited links */
+}
+
+a:hover {
+    color: darkblue; /* Change color on hover */
 }
 
 /* Responsive Design */
